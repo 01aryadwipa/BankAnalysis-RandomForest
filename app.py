@@ -15,7 +15,7 @@ st.sidebar.title("Welcome to Machine Learning Investment Analysis")
 
 # File upload section
 uploaded_file = st.sidebar.file_uploader("Upload your dataset (Excel or CSV)", type=["xlsx", "csv"], help="Limit 200MB per file • XLSX, CSV")
-
+st.sidebar.write("Dataset dapat diakses pada [link berikut](https://drive.google.com/drive/folders/1Z2gNUGtqRYHcvtl5pTmtPQpu0cuzNLCn?usp=sharing)")
 if uploaded_file:
     try:
         # Load the data
